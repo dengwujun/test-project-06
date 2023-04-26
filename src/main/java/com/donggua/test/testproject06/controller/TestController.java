@@ -13,7 +13,7 @@ public class TestController {
     @RequestMapping("test")
     public Map<String, String> test(String value) {
 
-
+        System.out.println("打印一下");
         Map<String, String> result = new HashMap<>();
         result.put("333", value);
 
