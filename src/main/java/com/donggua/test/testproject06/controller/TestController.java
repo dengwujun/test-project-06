@@ -28,6 +28,7 @@ public class TestController {
         map.put("333", "666");
 
         map.put("444", "master");
+        map.put("444", "master2");
 
         return map;
     }
