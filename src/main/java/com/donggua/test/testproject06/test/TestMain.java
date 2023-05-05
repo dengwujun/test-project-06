@@ -22,7 +22,7 @@ public class TestMain {
 
         Map<Integer, List<User>> userMap = userList.stream().collect(Collectors.groupingBy(User::getId));
 
-        userMap.forEach((id, list) -> System.out.println("id:" + id + ",listCount:" + list.size()));
+        userMap.forEach((id, list) -> System.out.println("id:" + id + ",listCount:" + list.get(0).getName()));
 
 
     }
