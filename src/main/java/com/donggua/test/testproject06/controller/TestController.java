@@ -1,5 +1,6 @@
 package com.donggua.test.testproject06.controller;
 
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -21,12 +22,12 @@ public class TestController {
     }
 
     @RequestMapping("test2")
-    public Map<String, String> test2(String value) {
+    public Map<String, Object> test2(@RequestBody Map<String, Object> map) {
 
-        Map<String, String> result = new HashMap<>();
-        result.put("333", value);
+        // Map<String, String> result = new HashMap<>();
+        map.put("333", "666");
 
-        return result;
+        return map;
     }
 
 
