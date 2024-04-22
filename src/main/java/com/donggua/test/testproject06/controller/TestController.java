@@ -28,6 +28,7 @@ public class TestController {
         map.put("333", "666");
         map.put("333", "b1");
         map.put("333", "这是一次错误的提交");
+        map.put("333", "这是一次错误的提交2");
 
         return map;
     }
