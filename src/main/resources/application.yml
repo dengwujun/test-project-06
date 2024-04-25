@@ -1,0 +1,9 @@
+server:
+  port: 8090
+
+spring:
+  elasticsearch:
+    rest:
+      uris: 192.168.30.131:9200
+      connection-timeout: 1s
+      read-timeout: 30s
