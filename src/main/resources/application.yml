@@ -1,0 +1,12 @@
+server:
+  port: 8088
+
+#es配置
+elastic-search:
+  host:
+    port: 192.168.30.131:9200
+  #    Socket连接超时时间
+  socket-timeout: 6000
+  #  连接超时时间
+  connection-timeout: 3000
+
