@@ -9,4 +9,3 @@ elastic-search:
   socket-timeout: 6000
   #  连接超时时间
   connection-timeout: 3000
-
